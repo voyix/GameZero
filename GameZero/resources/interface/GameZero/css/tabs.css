@@ -1,0 +1,36 @@
+.idTabs {
+  position: relative;
+  text-align: left; /* set to left, right or center */
+  margin: 0 0 0 0; /* set margins as desired */
+  border-bottom: 1px solid #6c6; /* set border COLOR as desired */
+  list-style-type: none;
+  padding: 4px 10px 4px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+.idTabs li {
+  display: inline;            
+}
+
+.idTabs li a {
+  padding: 3px 4px;/* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+  border: 1px solid #808080;/* set border COLOR as desired; usually matches border color specified in #tabnav */
+  background-color: #0033CC; /* set unselected tab background color as desired */
+  color: #fff; /* set unselected tab link color as desired */;
+  margin-right: 0px; /* set additional spacing between tabs as desired */;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.idTabs li a:hover {
+  background: #fff; /* set desired hover color */
+}
+
+.tab-container {
+  background-color: #fff; /* set selected tab background color as desired */;
+  color: #000; /* set selected tab link color as desired */;
+  border: 1px #e1e1e1 solid;
+  border-top : none;
+  clear : both;
+  margin : 0px;
+  padding : 15px;
+}
